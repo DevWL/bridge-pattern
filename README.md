@@ -1,4 +1,4 @@
-Check list
+<h1>Check list</h1>
 Decide if two orthogonal dimensions exist in the domain. These independent concepts could be: abstraction/platform, or domain/infrastructure, or front-end/back-end, or interface/implementation.
 Design the separation of concerns: what does the client want, and what do the platforms provide.
 Design a platform-oriented interface that is minimal, necessary, and sufficient. Its goal is to decouple the abstraction from the platform.
