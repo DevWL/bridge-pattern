@@ -6,7 +6,7 @@ Define a derived class of that interface for each platform.
 Create the abstraction base class that "has a" platform object and delegates the platform-oriented functionality to it.
 Define specializations of the abstraction class if desired.
 
-Rules of thumb
+<h1>Rules of thumb</h1>
 Adapter makes things work after they're designed; Bridge makes them work before they are.
 Bridge is designed up-front to let the abstraction and the implementation vary independently. Adapter is retrofitted to make unrelated classes work together.
 State, Strategy, Bridge (and to some degree Adapter) have similar solution structures. They all share elements of the "handle/body" idiom. They differ in intent - that is, they solve different problems.
